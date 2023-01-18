@@ -1,0 +1,42 @@
+.container {
+  display:flex;
+  justify-content:center;
+  align-item: center;
+  position: relative;
+  top: 40vh;
+ 
+}
+.button{
+  height:100px;
+  width:100px;
+  background-color:black;
+  border-radius:100px;
+ 
+}
+.progcon {
+  flex: 0.5;
+  display:flex;
+  justify-content: center;
+  align-items:center;
+}
+.fill-color{
+  background: url('https://media3.giphy.com/media/dAWZiSMbMvObDWP3aA/giphy.gif?cid=790b7611a8d038bc29e2a5ccd0f65c2901593e87a464f01e&rid=giphy.gif&ct=g');
+  background-size: 100% 100%;
+ 
+  width: 200px;
+  height: 50px;
+  border-top-left-radius: 5px 5px;
+   border-bottom-left-radius: 5px 5px;
+  transition:  1s;
+  
+  
+}
+.empty-color{
+   background-color: grey;
+   border-top-right-radius: 5px 5px;
+   border-bottom-right-radius: 5px 5px;
+  width: 200px;
+  height: 50px;
+  
+  transition:  1s;
+}
